@@ -1,0 +1,85 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tac:items/hotbar_icons/hk_mp5a5"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0,
+        -2.75
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        0,
+        -2.75
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -6.75,
+        2.25,
+        -3.25
+      ],
+      "scale": [
+        0.88,
+        0.88,
+        0.88
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -4.5,
+        1.5,
+        -3.75
+      ],
+      "scale": [
+        0.88,
+        0.88,
+        0.88
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -0.75,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -5.75,
+        -2.25,
+        -2
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  }
+}

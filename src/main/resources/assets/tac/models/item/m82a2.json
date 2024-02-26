@@ -1,0 +1,75 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tac:items/hotbar_icons/m82a2"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0.5,
+        -3.25
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        0.5,
+        -8.25
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -5.75,
+        1.0,
+        -3.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -4,
+        2.75,
+        -8.75
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -1.25,
+        -4
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  }
+}

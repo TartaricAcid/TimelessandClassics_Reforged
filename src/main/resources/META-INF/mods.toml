@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="GPL3"
+
+[[mods]]
+    modId="tac"
+    version="${file.jarVersion}"
+    displayName="Timeless and Classics Guns"
+    updateJSONURL=""
+    displayURL=""
+    authors="Timeless Development Team"
+    description='''
+'''
+
+[[dependencies.tac]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tac]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.19.3)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tac]]
+    modId="framework"
+    mandatory=true
+    versionRange="[0.6.16,)"
+    ordering="NONE"
+    side="BOTH"

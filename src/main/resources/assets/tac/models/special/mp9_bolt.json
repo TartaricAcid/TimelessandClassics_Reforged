@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"2": "tac:items/mp9_v2",
+		"particle": "tac:items/mp9_v2"
+	},
+	"elements": [
+		{
+			"from": [8.49417, 8.13486, 7.78125],
+			"to": [8.63644, 9.07186, 10.15625],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [7.80667, 8.23643, 9.41406]},
+			"faces": {
+				"north": {"uv": [7.5, 9.5, 7.5625, 9.625], "texture": "#2"},
+				"east": {"uv": [6, 4, 6.3125, 4.125], "texture": "#2"},
+				"south": {"uv": [8.125, 9.5, 8.1875, 9.625], "texture": "#2"},
+				"west": {"uv": [6, 4.25, 6.3125, 4.375], "texture": "#2"},
+				"up": {"uv": [6.8125, 7.5625, 6.75, 7.25], "texture": "#2"},
+				"down": {"uv": [7.0625, 7.25, 7, 7.5625], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.48112, 8.19046, 7.78125],
+			"to": [8.61214, 8.46013, 10.15625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.396, 8.87771, 8.5]},
+			"faces": {
+				"north": {"uv": [9, 11.125, 9.0625, 11.1875], "texture": "#2"},
+				"east": {"uv": [7.25, 5.625, 7.5625, 5.6875], "texture": "#2"},
+				"south": {"uv": [11.125, 9, 11.1875, 9.0625], "texture": "#2"},
+				"west": {"uv": [7.25, 6.75, 7.5625, 6.8125], "texture": "#2"},
+				"down": {"uv": [7.3125, 7.25, 7.25, 7.5625], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.75, 0.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0.75, 0.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"translation": [-0.5, 3.25, -6.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-0.5, 3.25, -6.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"gui": {
+			"rotation": [30, -145, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-2.25, 0.75, -2],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "(casing)",
+			"origin": [7.93167, 9.92393, 3.41406],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

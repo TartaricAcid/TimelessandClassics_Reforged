@@ -1,0 +1,63 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tac:items/hotbar_icons/qbz_95"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0,
+        0.25
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -5.75,
+        2.5,
+        -4.25
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -4,
+        1,
+        -1.25
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -1.5,
+        -2.25
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  }
+}
